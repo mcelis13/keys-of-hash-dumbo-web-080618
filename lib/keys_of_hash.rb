@@ -5,7 +5,7 @@ class Hash
   def keys_of(*arguments)
     newArray = []
     arguments.each do |arg|
-      self.each do |key, value| #it should work with just the word each because it's implied taht you are running it on itself
+      self.each do |key, value| #it should work with just the word each because it's implied that you are running it on itself
         #if you don't put anything in front of each   ex -- each do |arg| would still work
         if value == arg
          newArray << key
